@@ -1,6 +1,7 @@
 import { NavLink, Route, Routes } from "react-router-dom";
 import Inicio from "./pages/Inicio";
 import Pila from "./pages/Pila";
+import Cola from "./pages/Cola";
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Inicio />} />
         <Route path="/pila" element={<Pila />} />
+        <Route path="/cola" element={<Cola />} />
         <Route path="*" element={<main><h1>Página no encontrada</h1></main>} />
       </Routes>
     </>
