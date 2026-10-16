@@ -1,5 +1,6 @@
 import { NavLink, Route, Routes } from "react-router-dom";
 import Inicio from "./pages/Inicio";
+import Pila from "./pages/Pila";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
       </header>
       <Routes>
         <Route path="/" element={<Inicio />} />
+        <Route path="/pila" element={<Pila />} />
         <Route path="*" element={<main><h1>Página no encontrada</h1></main>} />
       </Routes>
     </>
