@@ -24,3 +24,12 @@ export async function eliminar(id) {
   const { error } = await supabase.from("registros").delete().eq("id", id);
   if (error) throw error;
 }
+
+export async function agregarVarios(estructura, lista) {
+  const { data, error } = await supabase
+    .from("registros")
+    .insert(lista.map((datos) => ({ estructura, datos })))
+    .select();
+  if (error) throw error;
+  return data.sort((a, b) => a.id - b.id);
+}
