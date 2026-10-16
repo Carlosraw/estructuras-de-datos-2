@@ -14,7 +14,7 @@ Plataforma web con pila, cola, buscador (trie y heap) y grafo, con datos guardad
 
 | Integrante | GitHub | Contribución |
 | --- | --- | --- |
-| Carlosraw | [@Carlosraw](https://github.com/Carlosraw) | Proyecto completo (trabajo individual) |
+| Carlos Andrés Aristizábal Hernández (código 2230750) | [@Carlosraw](https://github.com/Carlosraw) | Proyecto completo (trabajo individual) |
 
 ### Servicios
 

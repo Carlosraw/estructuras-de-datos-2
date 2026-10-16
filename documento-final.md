@@ -1,7 +1,7 @@
 # Documento final: Plataforma de estructuras de datos
 
 Curso: Estructuras de Datos II, Universidad Autónoma de Occidente.
-Trabajo individual.
+Autor: Carlos Andrés Aristizábal Hernández (código 2230750). Trabajo individual.
 
 ## 1. Alcance
 
