@@ -1,37 +1,16 @@
 # Estructuras de Datos II
 
-Repositorio del curso Estructuras de Datos II (Universidad Autónoma de Occidente): retos por clase y proyecto final.
+Retos del curso Estructuras de Datos II (Universidad Autónoma de Occidente), en JavaScript.
 
-## Proyecto final
+Cada reto está en su propia rama `feature/...` y todas están fusionadas en `main`.
 
-Plataforma web con pila, cola, buscador (trie y heap) y grafo, con datos guardados en Supabase.
+El proyecto final está en un repositorio aparte: https://github.com/Carlosraw/proyecto-final-estructuras-de-datos-2
 
-- Sitio publicado: https://proyecto-final-uao.netlify.app
-- Documento final: [documento-final.md](documento-final.md)
-- Código: carpeta [proyecto-final](proyecto-final)
+## Integrante
 
-### Integrantes
+Carlos Andrés Aristizábal Hernández (código 2230750) - [@Carlosraw](https://github.com/Carlosraw)
 
-| Integrante | GitHub | Contribución |
-| --- | --- | --- |
-| Carlos Andrés Aristizábal Hernández (código 2230750) | [@Carlosraw](https://github.com/Carlosraw) | Proyecto completo (trabajo individual) |
-
-### Servicios
-
-| Servicio | Uso | Enlace |
-| --- | --- | --- |
-| Netlify | Publicación del frontend | https://proyecto-final-uao.netlify.app |
-| Supabase | Base de datos y API | https://tvgylkaychoetemcfhju.supabase.co |
-
-### Ejecutar en local
-
-    cd proyecto-final
-    npm install
-    npm run dev
-
-Se necesita un archivo `proyecto-final/.env` con `VITE_SUPABASE_URL` y `VITE_SUPABASE_ANON_KEY`.
-
-## Ramas
+## Retos
 
 | Rama | Contenido |
 | --- | --- |
@@ -42,4 +21,3 @@ Se necesita un archivo `proyecto-final/.env` con `VITE_SUPABASE_URL` y `VITE_SUP
 | [feature/arboles-challenge-09](https://github.com/Carlosraw/estructuras-de-datos-2/tree/feature/arboles-challenge-09) | Challenge 09: árbol n-ario |
 | [feature/grafos-challenge-10](https://github.com/Carlosraw/estructuras-de-datos-2/tree/feature/grafos-challenge-10) | Challenge 10: grafo de amigos y ciudades |
 | [feature/tries-heaps-challenge-11](https://github.com/Carlosraw/estructuras-de-datos-2/tree/feature/tries-heaps-challenge-11) | Challenge 11: buscador con trie y heap |
-| [feature/proyecto-final](https://github.com/Carlosraw/estructuras-de-datos-2/tree/feature/proyecto-final) | Proyecto final |
